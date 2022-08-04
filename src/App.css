@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #232323;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +46,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
 }
